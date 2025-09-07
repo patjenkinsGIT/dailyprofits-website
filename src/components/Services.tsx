@@ -1,5 +1,5 @@
 import React from 'react';
-import { Cpu, Hammer, Network, TrendingUp, Shield, Wifi } from 'lucide-react';
+import { Hammer, Network, TrendingUp, Shield, Wifi } from 'lucide-react';
 
 export const Services: React.FC = () => {
   const services = [
@@ -57,7 +57,7 @@ export const Services: React.FC = () => {
                   <div className={`p-3 bg-gradient-to-r ${service.color} rounded-lg mr-4`}>
                     <IconComponent className="h-6 w-6 text-white" />
                   </div>
-                  <h3 className="text-xl font-bold text-white group-hover:text-blue-400 transition-colors">
+                            <h3 className="text-xl font-bold text-white group-hover:text-blue-400 transition-colors">
                     {service.title}
                   </h3>
                 </div>
